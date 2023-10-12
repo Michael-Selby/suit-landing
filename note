@@ -1,0 +1,235 @@
+@media screen and (max-width: 768px) {
+  .navbar {
+    width:100%;
+    height: 56px;
+    top: 40px;
+    left: 39px;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    .suit-logo {
+      font-family: Epilogue;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: -0.4444444477558136px;
+      text-align: left;
+      
+    }
+    .reportbtn {
+      font-family: Epilogue;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: -0.1599999964237213px;
+      text-align: left;
+      width: 171px;
+      height: 32px;
+      top: 12px;
+      left: 23.5px;
+      color: #172339;
+    }
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+  .flexbox-container1{
+  .large-pattern{
+    width: 231.19px;
+   height: 29px;
+   top: 218.68px;
+   left: 262px;
+  border: 2px;
+  } 
+  .header-text{
+    font-family: Epilogue;
+font-size: 56px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: -0.7777777910232544px;
+text-align: left;
+  }
+  .some-text{
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    letter-spacing: 0.08888889104127884px;
+    text-align: left;
+    color: #49566D;
+    width: 350px;
+height: 84px;
+top: 433px;
+left: 39px;
+padding: 0px;
+margin-top: 40px;
+margin-bottom: 40px;
+
+  }
+  .last-text{
+    font-family: Epilogue;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 32px;
+   letter-spacing: -0.18000000715255737px;
+   width: 256px;
+   color: var(--cardContainer);
+   background-color: #172339;
+  }
+  .second-col{
+    display: flex;
+    justify-content: space-around;
+    
+  }  
+ /* .num{
+    font-family: Epilogue;
+font-size: 48px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0px;
+text-align: center;
+  }*/
+    
+  }
+  .num{font-family: Epilogue;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top:100px;
+  }
+  .num::before {
+    content: url(images/image-hero-portrait.png);
+    position: absolute;
+    scale: 0.7;
+    z-index: -1;
+    top: 10px;
+    right: 480px;
+    height: 482px;
+   /* transform: translateY(900px);*/
+    transform: translateX(660px);
+    margin-top: -10px;
+  }
+  pre{
+    font-family: Epilogue;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 2.5px;
+text-align: center;
+  }
+  .large-pattern{
+    margin-top: 70px;
+    transform: translateX(250px);
+  } 
+  .header-text{
+    padding-left: 30px;
+  }
+  
+  .flexbox-container3 {
+    width: 689px;
+    height: 684px;
+    margin-top: 300px;
+    margin-left: 40px;
+    background-color: var(--blacktext);
+
+  }
+  .small-pattern::before {
+    content: url(images/man-image.png);
+    position: absolute;
+    transform: translateY(-180px);
+    right: 250px;
+  
+
+  }
+  .small-pattern {
+    width: 49.27px;
+    height: 40px;
+    top: 1363px;
+    left: 408.27px;
+    border: 2px solid black;  
+    margin-left: 299px;
+  }
+.sec-header-text{
+font-family: Epilogue;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -0.4166666567325592px;
+text-align: center;
+margin-top: 300px;
+}
+span{
+font-family: Epilogue;
+font-size: 40px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: -0.4166666567325592px;
+text-align: center;
+color: var(--cardContainer);
+}
+
+.sec-text1 {
+  float: right;
+  text-align: center;
+
+}
+blockquote {
+  font-family: Epilogue;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.09000000357627869px;
+text-align: center;
+width: 573px;
+height: 96px;
+top: 88px;
+color: var(--footer);
+
+
+}
+cite {
+  font-family: Epilogue;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18000000715255737px;
+  text-align: left;
+  width: 165px;
+  height: 32px;
+  top: 311px;
+  color: var(--cardContainer);
+}
+.sec-header-text::before{
+content: url(images/smalline.svg);
+position: absolute;
+top: 1245px;
+margin-left: 99px;
+
+}
+.flexbox-container4{
+  display: flex;
+  justify-content: space-between;
+}
+.fsuit{
+  font-family: Epilogue;
+font-size: 32px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: -0.4444444477558136px;
+text-align: left;
+
+}
+.Csuit{
+  font-family: Epilogue;
+font-size: 15px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.0833333358168602px;
+text-align: left;
+}
+.fsuit,.Csuit,.footer-image{
+  padding: 2rem;
+}
+}

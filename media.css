@@ -1,0 +1,503 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&family=Roboto:wght@700&display=swap");
+
+@media screen and (max-width: 430px) {
+  body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f3ede7;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    width: 343px;
+    height: 48px;
+    margin: 24px 16px 0 16px;
+    width: auto;
+  }
+  a {
+    text-decoration: none;
+  }
+  .suit-logo {
+    font-family: Epilogue;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.4444444477558136px;
+  }
+  .reportbtn {
+    font-family: Epilogue;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.14000000059604645px;
+    border: 1px solid black;
+    padding: 15px;
+    color: #172339;
+  }
+  .large-pattern {
+    position: absolute;
+    scale: 0.7;
+    width: 151.47px;
+    height: 19px;
+    /* top: -128px;
+    left: 170px;*/
+    border: 2px;
+    left: 120px;
+    top: 80px;
+    scale: 0.4;
+  }
+  .header-text {
+    font-family: Epilogue;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -0.5277777910232544px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 18px;
+  }
+  .half-text {
+    font-family: Epilogue;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: -0.5277777910232544px;
+    text-align: left;
+  }
+  .some-text {
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.08888889104127884px;
+    text-align: left;
+    width: 290px;
+    height: 84px;
+    color: var(--graytext);
+    margin-left: 18px;
+  }
+  .last-text {
+    font-family: Epilogue;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18000000715255737px;
+    text-align: center;
+    width: 256px;
+    padding: 10px;
+    background-color: #172339;
+    color: #faf8f6;
+    margin-left: 16px;
+  }
+  .header-text,
+  .some-text,
+  .last-text {
+    margin-top: 20px;
+  }
+  .second-col::before {
+    content: url(images/image-hero-landscape.png);
+    position: relative;
+    top: 40px;
+    left: 16px;
+    z-index: -1;
+  }
+  .second-col {
+    display: block;
+  }
+  .num {
+    margin-top: 70px;
+    font-family: Epilogue;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 343px;
+    height: 56px;
+  }
+  .numL {
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: var(--graytext);
+  }
+  .flexbox-container3 {
+    background-color: #172339;
+    width: 100%px;
+    height: 748px;
+    top: 181px;
+    left: 99px;
+    margin-top: 300px;
+    margin-left: 0px;
+  }
+  .flexbox-container3::after {
+    content: url(images/man-image.png);
+    position: absolute;
+    top: 1103px;
+    right: 52px;
+    left: 71px;
+  }
+  .small-pattern {
+    width: 49.27px;
+    height: 40px;
+    position: absolute;
+    top: 1600px;
+    left: 130px;
+  }
+  .sec-header-text {
+    font-family: Epilogue;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.4166666567325592px;
+    text-align: center;
+    padding-top: 400px;
+
+    color: #faf8f6;
+  }
+  .works {
+    font-family: Epilogue;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4166666567325592px;
+    text-align: center;
+    color: #faf8f6;
+  }
+  blockquote {
+    font-family: Epilogue;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.09000000357627869px;
+    text-align: center;
+    color: #f3ede7;
+  }
+  h5 {
+    color: #f3ede7;
+    padding-left: 100px;
+    font-family: Epilogue;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18000000715255737px;
+    text-align: center;
+    margin-top: -20px;
+    margin-right:80px;
+  }
+  pre {
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: #f3ede7;
+  }
+  .flexbox-container4 {
+    width: auto;
+    display: inline-block;
+  }
+
+  .fsuit {
+    font-family: Epilogue;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.4444444477558136px;
+    margin-top: 30px;
+    margin-left: 150px;
+  }
+  .Csuit {
+    font-family: Epilogue;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.0833333358168602px;
+    margin-top:30px;
+    margin-left: 130px;
+  }
+  
+  .icons{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 120px;
+  }
+
+  .f,.t,.g{
+    margin-left: 20px;
+  }
+
+.last-last-text{
+    color: #faf8f6;
+    
+    margin-top: -20px;
+}
+}
+
+@media screen and (min-width: 430px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin: 40px 40px 0 39px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .suit-logo {
+    font-family: Epilogue;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.4444444477558136px;
+    text-align: left;
+
+    width: 81px;
+    height: 32px;
+    top: 12px;
+  }
+  .reportbtn {
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.1599999964237213px;
+    text-align: center;
+    border: 1px solid black;
+    width: 219px;
+    margin-right: 47px;
+  }
+  .large-pattern {
+    width: 231.19px;
+    height: 29px;
+    top: 218.68px;
+    left: 262px;
+    border: 2px;
+    margin-top: 42.7px;
+    margin-right: 235px;
+    margin-left: 223px;
+  }
+  .header-text {
+    font-family: Epilogue;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -0.7777777910232544px;
+    text-align: left;
+    width: 573px;
+    height: 129px;
+    top: 264px;
+    left: 39px;
+    margin-left: 10px;
+    margin-right: 64px;
+    margin-top: 40px;
+  }
+  .half-text {
+    font-family: Epilogue;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: -0.7777777910232544px;
+    text-align: left;
+  }
+  .some-text {
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.08888889104127884px;
+    text-align: left;
+    width: 209px;
+    height: 84px;
+    top: 433px;
+    left: 39px;
+    color: #49566d;
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+  .last-text {
+    font-family: Epilogue;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18000000715255737px;
+    text-align: center;
+
+    width: 193px;
+    height: 32px;
+    top: 15px;
+    left: 32px;
+    border: 2px solid black;
+    color: #faf8f6;
+    background-color: #172339;
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+  .last-text::after {
+    content: url(images/image-hero-portrait.png);
+    position: absolute;
+    top: 100px;
+    left: 330px;
+    z-index: -1;
+    scale: 1;
+  }
+  .num {
+    font-family: Epilogue;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 250px;
+  }
+  .numL {
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: #49566d;
+  }
+  .second-col {
+    display: flex;
+    justify-content: space-around;
+  }
+  .flexbox-container3 {
+    background-color: #172339;
+    width: auto;
+    height: 684px;
+    top: 1102px;
+    left: 39px;
+    margin: 0 10px;
+    margin-top: 18rem;
+  }
+  .flexbox-container3::after {
+    content: url(images/man-image.png);
+    position: absolute;
+    top: 1000px;
+    left: 250px;
+  }
+  .sec-header-text {
+    font-family: Epilogue;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.4166666567325592px;
+    text-align: center;
+    color: #faf8f6;
+    margin-top: 300px;
+    margin-bottom: 50px;
+  }
+  .works {
+    font-family: Epilogue;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4166666567325592px;
+    text-align: center;
+    color: #faf8f6;
+  }
+  blockquote {
+    font-family: Epilogue;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.09000000357627869px;
+    text-align: center;
+    width: 573px;
+    height: 96px;
+    top: 88px;
+    color: #f3ede7;
+    margin: auto 100px;
+    margin-bottom: 50px;
+  }
+  h5 {
+    font-family: Epilogue;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18000000715255737px;
+    width: 165px;
+    height: 32px;
+    color: #faf8f6;
+    margin-left: 280px;
+  }
+  pre {
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: #f3ede7;
+  }
+  .small-pattern {
+    margin-left: 360px;
+    transform: translateY(250px);
+  }
+  .flexbox-container4 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .fsuit {
+    font-family: Epilogue;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.4444444477558136px;
+    text-align: left;
+  }
+  .Csuit {
+    font-family: Epilogue;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.0833333358168602px;
+    text-align: left;
+  }
+  .footer-image {
+    width: 116px;
+    height: 20px;
+    top: 6px;
+    left: 573px;
+  }
+  .fsuit,
+  .Csuit,
+  .footer-image {
+    padding: 4rem;
+  }
+  .icons{
+    display: flex;
+    margin-top: 960px;
+    margin-right: 50px;
+  }
+  .f,.t,.g{
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+
+  .flexbox-container4{
+    width: 769px;
+    background-color: #F3EDE7;
+    margin-top:-178px;
+    position: absolute;
+    z-index: -1;
+}
+.fsuit,
+.Csuit,
+.icons{
+    margin-top: 200px;
+}
+
+}
