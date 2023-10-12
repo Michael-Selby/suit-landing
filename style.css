@@ -1,27 +1,12 @@
 
 @media screen and (min-width: 1080px){
-
-/*.reportbtn{
-    color: #172339;
-    transition: 1s;
-    
-    
-    width: 219px;
-    height: 56px;
-    padding-top: 20px;
-    
-    
-}
-.reportbtn :hover{
-color: aliceblue;
-background-color: #172339;
-}*/
 .reportbtn{
     width: 256px;
     height: 61px;
     padding-top: 20px;
     text-align: center;
     transition: all is;
+    color: #172339;
     
 }
 .reportbtn:hover{
@@ -29,7 +14,6 @@ background-color:#172339 ;
 border: none;
 color:#FAF8F6;
 }
-
 
 .second-col{
     display: block;
@@ -68,11 +52,12 @@ text-align: left;
 width: 21.875rem;
 height: 175px;
 top: 96px;
-
 }
+
 .sec-header-text{
     margin-left: 550px;
 }
+
 .container{
 margin-top: -260px;
 }
