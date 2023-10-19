@@ -7,6 +7,7 @@
     text-align: center;
     transition: all is;
     color: #172339;
+    margin-right: 165px;
     
 }
 .reportbtn:hover{
@@ -25,15 +26,16 @@ color:#FAF8F6;
 .num{
     position: relative;
     margin:auto 80px;
-    top: 100px;
-    left: 100px;
+    top: 80px;
+    left: -20px;
+    margin-top: 40px;
 }
 
 
 .flexbox-container3::after{
     left:320px;
     top: 1109px;
-    scale: 1.5;
+    scale: 1.63;
 }
 
 
@@ -79,7 +81,7 @@ h5{
     margin-top: 110px;
 }
 .small-pattern{
-    padding-left: 200px;
+    padding-left: 300px;
     transform: translateY(183px);
 }
 .last-text{
@@ -88,6 +90,7 @@ h5{
     padding-top: 20px;
     text-align: center;
     transition: all is;
+    margin-top: 52px;
 }
 .last-text:hover{
 background-image: linear-gradient(#A060FF, #CB30E3, #FFA84E);
@@ -99,6 +102,7 @@ border: none;
 }
 .some-text{
     width: 17.9375rem;
+    margin-top: 40px;
 
 }
 .fsuit{
@@ -107,14 +111,14 @@ border: none;
 
 
 .first-side{
-margin-left: 110px;
+margin-left: 60px;
 }
 .suit-logo{
-    margin:auto 150px;
+    margin:auto 110px;
 }
 .last-text::after{
     position: absolute;
-    left: 567px;
+    left: 507px;
     top: 140px;
 }
 .flexbox-container1{
@@ -147,11 +151,18 @@ margin-left: 110px;
     cursor: pointer;
 }
 .flexbox-container4{
-    width: 1440px;
+    width: 100%;
     background-color: #F3EDE7;
     height: 464px;
     margin-top: -278px;
     position: relative;
     z-index: -1;
+}
+.last-last-text{
+padding-top: 70px;
+position: absolute;
+left: 789px;
+
+
 }
 }
